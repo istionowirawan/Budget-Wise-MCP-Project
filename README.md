@@ -5,12 +5,6 @@
 This project serves as a **portfolio** example.
 The primary objective of this application is to apply comprehensive mobile app development concepts—from initial design to the implementation of functionality—using React Native and Supabase.
 
-## Download application (.apk)
-
-You can download and try the release version of the application directly via the following link:
-
-➡️ **[Unduh Budget Wise APK dari Google Drive](https://drive.google.com/file/d/1y3wcmpvNRDBC1CpprK1GKltn3IkyUSCj/view?usp=sharing)**
-
 ## Key Features
 -   💸 **Comprehensive Transaction Management**: Record, edit, delete, and filter income/expenses using customizable categories.
 -   📊 **Smart Budgeting & Alerts**: Set budgets by category, monitor progress visually (🟢🟡🔴), and receive automatic notifications when approaching or exceeding your limits.
