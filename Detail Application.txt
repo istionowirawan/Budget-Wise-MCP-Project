@@ -1,0 +1,48 @@
+How to use application
+*Getting Started with the App
+Registration: Enter your email and password (min. 6 characters), then tap "Register"
+Login: Use your email/password or biometric authentication
+
+*Main Navigation
+🏠 Dashboard: Overview saldo dan transaksi terbaru
+💰 Transaksi: Daftar semua transaksi dengan filter
+📊 Budget: Kelola anggaran dan monitoring
+🎯 Tantangan: Challenge menabung dan progress
+⚙️ Lainnya: Pengaturan dan profil
+
+*Mengelola Transaksi
+Tambah Transaksi: Tap "+" → Pilih jenis (Pemasukan/Pengeluaran) → Isi nominal, kategori, deskripsi → Simpan
+Edit: Tap transaksi → Ikon edit → Ubah data → Simpan
+Hapus: Tap transaksi → Ikon hapus → Konfirmasi
+Filter: Gunakan filter tanggal, kategori, atau pencarian
+
+*Manajemen Budget
+Buat Budget: Tab Budget → "Tambah Budget" → Isi nama, kategori, jumlah, periode → Simpan
+Monitor: Lihat progress bar dan status (🟢 On Track, 🟡 Warning, 🔴 Over Budget)
+Alert: Notifikasi otomatis saat budget 80% dan saat terlampaui
+
+*Sistem Tantangan
+Pilih Challenge: Tab Tantangan → Browse → Pilih → "Ikuti Tantangan"
+Buat Sendiri: "Buat Tantangan" → Isi nama, target, durasi → "Mulai Tantangan"
+Update Progress: Tap challenge aktif → "Update Progress" → Input pencapaian
+
+*Analisis Keuangan
+Dashboard: Total balance, income/expense bulanan, budget usage
+Charts: Income vs expense trend, breakdown kategori, budget performance
+Expense Map: Lihat lokasi pengeluaran di peta
+
+6. Keterangan Tambahan
+*Fitur Keamanan
+Biometric Login: Aktifkan di Pengaturan > Keamanan
+Privacy Mode: Sembunyikan saldo dan detail transaksi
+Auto Logout: Set timeout 1-30 menit
+
+*Backup & Restore
+Auto Backup: Set frekuensi daily/weekly/monthly
+Manual Backup: Pengaturan > Backup & Restore > "Backup Sekarang"
+Restore: Pilih file backup dari riwayat atau upload manual
+
+*Notifikasi
+Budget alerts, daily reminders, weekly summary
+Challenge updates, goal achievements
+Atur di Pengaturan > Notifikasi
