@@ -1,40 +1,36 @@
-# Budget Wise - Aplikasi Perencana Keuangan (React Native)
+# Budget Wise - Financial Planning App (React Native)
 
-**Budget Wise** adalah aplikasi mobile perencana keuangan yang dirancang untuk membantu pengguna mengelola keuangan pribadi dengan lebih cerdas dan mudah. Ambil alih kendali atas pemasukan dan pengeluaran Anda, buat anggaran yang efektif, dan capai tujuan finansial Anda.
+**Budget Wise** is a mobile financial planning application designed to help users manage their personal finances more intelligently and easily. Take control of your income and expenses, create effective budgets, and achieve your financial goals.
 
-Proyek ini merupakan hasil dari **Ujian Akhir Semester (UAS) mata kuliah Mobile Cross-Platform**. Tujuan utamanya adalah untuk menerapkan konsep pengembangan aplikasi mobile secara menyeluruh, mulai dari perancangan hingga implementasi fungsionalitas, menggunakan React Native dan Supabase.
+This project serves as a **portfolio** example.
+The primary objective of this application is to apply comprehensive mobile app development concepts—from initial design to the implementation of functionality—using React Native and Supabase.
 
-## Unduh Aplikasi (.apk)
+## Download application (.apk)
 
-Anda bisa mengunduh dan mencoba aplikasi versi rilis langsung melalui tautan berikut:
+You can download and try the release version of the application directly via the following link:
 
 ➡️ **[Unduh Budget Wise APK dari Google Drive](https://drive.google.com/file/d/1y3wcmpvNRDBC1CpprK1GKltn3IkyUSCj/view?usp=sharing)**
 
-## Fitur Utama
--   💸 **Manajemen Transaksi Lengkap**: Catat, edit, hapus, dan filter pemasukan/pengeluaran dengan kategori yang bisa disesuaikan.
--   📊 **Anggaran & Peringatan Cerdas**: Buat budget per kategori, monitor progres secara visual (🟢🟡🔴), dan dapatkan notifikasi otomatis saat mendekati atau melebihi batas.
--   🎯 **Sistem Tantangan Menabung**: Ikuti tantangan menabung yang ada atau buat tantangan custom untuk memotivasi pencapaian tujuan finansial.
--   📈 **Analisis & Visualisasi Data**: Pahami kebiasaan finansial melalui dashboard interaktif, grafik tren, dan peta lokasi pengeluaran (*expense map*).
--   🔐 **Keamanan Berlapis**: Login aman dengan email/password, dukungan autentikasi biometrik, dan fitur *privacy mode* untuk menyembunyikan saldo.
--   ☁️ **Backup & Notifikasi**: Sistem backup otomatis/manual dan notifikasi cerdas untuk pengingat harian, update budget, dan pencapaian tantangan.
+## Key Features
+-   💸 **Comprehensive Transaction Management**: Record, edit, delete, and filter income/expenses using customizable categories.
+-   📊 **Smart Budgeting & Alerts**: Set budgets by category, monitor progress visually (🟢🟡🔴), and receive automatic notifications when approaching or exceeding your limits.
+-   🎯 **Savings Challenge System**: Participate in existing savings challenges or create your own custom challenges to stay motivated in reaching your financial goals.
+-   📈 **Data Analysis & Visualization**: Gain insights into your financial habits through interactive dashboards, trend charts, and expense maps.
+-   🔐 **Multi-layered Security**: Secure login via email/password, support for biometric authentication, and a "privacy mode" to hide your account balances.
+-   ☁️ **Backup & Notifications**: Automatic or manual backup systems, plus smart notifications for daily reminders, budget updates, and progress on your savings challenges.
 
-## Teknologi yang Digunakan
+## Technologies Used
 * **Framework**: **React Native**
-* **Bahasa**: **JavaScript / TypeScript**
+* **Language**: **JavaScript / TypeScript**
 * **Backend & Database**: **Supabase**
-    * **PostgreSQL Database**: Untuk menyimpan semua data transaksi, budget, dan pengguna.
-    * **Supabase Auth**: Mengelola autentikasi pengguna, termasuk login via email/password.
-    * **Realtime APIs**: Untuk sinkronisasi data secara langsung antar perangkat.
-* **Library Pendukung Utama**:
-    * **React Navigation**: Untuk manajemen navigasi dan perpindahan antar layar.
-    * **React Native Maps**: Untuk menampilkan fitur peta lokasi pengeluaran (*Expense Map*).
-    * **React Native Chart Kit**: Untuk membuat grafik dan chart visualisasi data keuangan.
-    * **React Native Biometrics**: Untuk mengimplementasikan fitur login dengan sidik jari atau wajah.
-
-## Cara Penggunaan Aplikasi
-### Memulai Aplikasi
-* **Registrasi**: Masukkan email dan password (minimal 6 karakter), lalu tap tombol **"Daftar"**.
-* **Login**: Gunakan email dan password yang terdaftar. Anda juga dapat mengaktifkan dan menggunakan autentikasi biometrik (sidik jari/wajah) dari menu pengaturan.
+* **PostgreSQL Database**: For storing all transaction, budget, and user data. 
+* **Supabase Auth**: For managing user authentication, including email/password login. 
+* **Realtime APIs**: For real-time data synchronization across devices.
+* **Key Supporting Libraries**:
+* **React Navigation**: For navigation management and transitioning between screens. 
+* **React Native Maps**: For displaying the expense location map feature (*Expense Map*). 
+* **React Native Chart Kit**: For creating graphs and charts to visualize financial data. 
+* **React Native Biometrics**: For implementing biometric login (fingerprint or facial recognition).
 
 ### Navigasi Utama
 * 🏠 **Dashboard**: Menampilkan ringkasan saldo, transaksi terbaru, dan status budget.
@@ -43,45 +39,39 @@ Anda bisa mengunduh dan mencoba aplikasi versi rilis langsung melalui tautan ber
 * 🎯 **Tantangan**: Berisi daftar tantangan menabung yang bisa diikuti atau dibuat sendiri.
 * ⚙️ **Lainnya**: Akses ke menu Pengaturan, Profil Pengguna, Keamanan, dan fitur lainnya.
 
-### Mengelola Transaksi
-* **Tambah Transaksi**: Tap ikon **"+"** di menu navigasi, pilih jenis (Pemasukan/Pengeluaran), lalu isi detail seperti nominal, kategori, dan deskripsi. Tap **"Simpan"**.
-* **Edit & Hapus**: Pada daftar transaksi, tap pada salah satu item untuk melihat detail. Gunakan ikon *edit* untuk mengubah atau ikon *hapus* untuk menghilangkannya.
-* **Filter Transaksi**: Gunakan opsi di bagian atas halaman Transaksi untuk memfilter berdasarkan tanggal, kategori, atau mencari berdasarkan deskripsi.
+### Managing Transactions
+* **Add Transaction**: Tap the **"+"** icon in the navigation menu, select the type (Income/Expense), then enter details such as the amount, category, and description. Tap **"Save"**.
+* **Edit & Delete**: In the transaction list, tap an item to view its details. Use the *edit* icon to make changes or the *delete* icon to remove it.
+* **Filter Transactions**: Use the options at the top of the Transactions page to filter by date or category, or search by description.
 
-### Manajemen Budget
-* **Buat Budget**: Masuk ke tab **Budget**, tap **"Tambah Budget"**, lalu isi nama, kategori, jumlah, dan periode (misal: Bulanan).
-* **Monitor Progress**: Setiap budget akan menampilkan progress bar dengan status warna:
-    * 🟢 **On Track**: Pengeluaran masih aman.
-    * 🟡 **Warning**: Pengeluaran sudah mencapai 80% dari batas.
-    * 🔴 **Over Budget**: Pengeluaran telah melebihi batas.
-* **Peringatan Otomatis**: Aplikasi akan mengirim notifikasi saat budget mencapai 80% dan saat sudah terlampaui.
+### Budget Management
+* **Create a Budget**: Go to the **Budget** tab, tap **"Add Budget"**, then enter the name, category, amount, and period (e.g., Monthly).
+* **Monitor Progress**: Each budget displays a progress bar with color-coded status indicators:
+* 🟢 **On Track**: Spending is within safe limits. 
+* 🟡 **Warning**: Spending has reached 80% of the limit. 
+* 🔴 **Over Budget**: Spending has exceeded the limit.
+* **Automatic Alerts**: The app will send notifications when a budget reaches 80% of its limit and when it has been exceeded.
 
-### Sistem Tantangan
-* **Pilih Tantangan**: Jelajahi daftar tantangan yang tersedia di tab **Tantangan**, pilih yang Anda suka, dan tap **"Ikuti Tantangan"**.
-* **Buat Tantangan Sendiri**: Gunakan opsi **"Buat Tantangan"**, lalu tentukan nama, target nominal, dan durasi.
-* **Update Progress**: Untuk setiap tantangan aktif, Anda dapat memperbarui progress pencapaian Anda secara manual.
+### Challenge System
+* **Select a Challenge**: Browse the list of available challenges in the **Challenges** tab, choose one you like, and tap **"Join Challenge"**.
+* **Create Your Own Challenge**: Use the **"Create Challenge"** option, then specify a name, target amount, and duration.
+* **Update Progress**: For each active challenge, you can manually update your progress toward the goal.
 
-### Analisis Keuangan
-* **Laporan di Dashboard**: Cek total saldo, ringkasan pemasukan/pengeluaran bulan ini, dan penggunaan budget secara cepat.
-* **Grafik Visual**: Lihat tren pemasukan vs. pengeluaran, perbandingan pengeluaran per kategori, dan performa budget dalam bentuk grafik.
-* **Expense Map**: Fitur untuk melihat visualisasi lokasi geografis di mana saja Anda melakukan pengeluaran (jika data lokasi diaktifkan).
+### Financial Analysis
+* **Dashboard Reports**: Quickly check your total balance, a summary of income/expenses for the current month, and your budget utilization.
+* **Visual Charts**: View trends in income versus expenses, a breakdown of spending by category, and budget performance through charts. * **Expense Map**: A feature that provides a visual representation of the geographical locations where you have made expenditures (if location data is enabled).
 
-## Keterangan Tambahan
-### Fitur Keamanan
-* **Biometric Login**: Aktifkan melalui menu **Pengaturan > Keamanan** untuk login lebih cepat dan aman.
-* **Privacy Mode**: Sembunyikan nominal saldo dan detail transaksi di dashboard dengan satu tombol untuk menjaga privasi Anda di tempat umum.
-* **Auto Logout**: Atur durasi logout otomatis (1-30 menit) untuk keamanan tambahan jika aplikasi tidak digunakan.
+## Additional Information
+### Security Features
+* **Biometric Login**: Enable this via the **Settings > Security** menu for faster and more secure access.
+* **Privacy Mode**: Hide your account balance and transaction details on the dashboard with a single tap—perfect for maintaining your privacy when in public.
+* **Auto Logout**: Set an automatic logout duration (1–30 minutes) for extra security whenever the app is left idle.
 
 ### Backup & Restore
-* **Auto Backup**: Atur frekuensi backup data otomatis (harian, mingguan, atau bulanan) ke cloud.
-* **Manual Backup**: Lakukan backup kapan saja melalui **Pengaturan > Backup & Restore > "Backup Sekarang"**.
-* **Restore Data**: Pulihkan data dari riwayat backup yang tersimpan atau unggah file backup secara manual.
+* **Auto Backup**: Schedule automatic data backups to the cloud (daily, weekly, or monthly).
+* **Manual Backup**: Perform a backup at any time via **Settings > Backup & Restore > "Back Up Now"**.
+* **Restore Data**: Recover your data from saved backup history or by manually uploading a backup file.
 
-### Notifikasi
-* Atur jenis notifikasi yang ingin Anda terima melalui **Pengaturan > Notifikasi**.
-* Dapatkan peringatan budget, pengingat pencatatan harian, rangkuman mingguan, serta update dari tantangan menabung Anda.
-
-## Tautan Penting
--   **Laporan Proyek Lengkap**: [Lihat Laporan di Google Docs](https://docs.google.com/document/d/1KYdBS9cgr81RGXawtq6-iBWXcn8XGmpwa__3UokjsIk/edit?usp=sharing)
--   **Repository**: [Lihat Kode di GitHub](https://github.com/batarah07d0/Budget-Wise-MCP-Project)
----
+### Notifications
+* Customize the types of notifications you wish to receive via **Settings > Notifications**.
+* Get budget alerts, daily logging reminders, weekly summaries, and updates on your savings challenges.
